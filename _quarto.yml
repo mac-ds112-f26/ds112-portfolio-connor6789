@@ -70,26 +70,26 @@ book:
       # - tt/2025-07-15.qmd
 
 
-     - part: "Pre-Class Learnings"
-       chapters:
-       - pcl/pcl.qmd
-       - ica/PC_Learnings.qmd
+  #   - part: "Pre-Class Learnings"
+  #     chapters:
+  #    - pcl/pcl.qmd
+  #     - ica/PC_Learnings.qmd
 
-     - part: "In-Class Activities"
-       chapters:
-       - ica/ica-sample1.qmd
-       - ica/ica-sample2.qmd
-       - ica/quarto-demo.qmd
-       - ica/03-univariate-viz-exercises.qmd
-       - ica/04-bivariate-viz-exercises.qmd
-       - ica/05-multivariate-viz.qmd
-       - ica/06-spatial-viz.qmd
+   #  - part: "In-Class Activities"
+    #   chapters:
+     #  - ica/ica-sample1.qmd
+      # - ica/ica-sample2.qmd
+       #- ica/quarto-demo.qmd
+      # - ica/03-univariate-viz-exercises.qmd
+      # - ica/04-bivariate-viz-exercises.qmd
+      # - ica/05-multivariate-viz.qmd
+      # - ica/06-spatial-viz.qmd
 
-     - part: "Extras"
-       chapters:
-       - extra/extra-sample1.qmd
-       - extra/extra-sample2.qmd
-
+#     - part: "Extras"
+ #      chapters:
+  #     - extra/extra-sample1.qmd
+   #    - extra/extra-sample2.qmd
+#
 
 
 format:
