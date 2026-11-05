@@ -1,0 +1,23 @@
+---
+title: "PC_Learnings"
+format: html
+---
+
+Spatial Viz
+- 3 types of spatial viz: Point Maps, Contour Maps, Choropleth Maps
+- Point Maps are for plotting locations of individual observations
+- Contour Maps are for plotting the density or distribution of observations
+- Choropleth Maps plotting outcomes in different regions
+- Requires two pieces, polygons →boundaries of area (countries, states, etc) and values to color polygons or coordinates of points of interest to show on map
+
+Effective Viz
+- Ineffective visualizations are broken down into 3 categories: wrong, bad, and ugly
+- Is the graph right → right for data, appropriate for story, clear purpose, not misleading, etc.
+- Is the graph complete → title, subtitle, axes labelled, legend title, legend labels, caption, etc.
+-Is the graph accessible → color (fill, border, bg, text), alt-text, text size
+Everything added to the graph needs to be intentional
+
+Wrangling
+- All 6 verbs are stored in the dplyr package
+- The 6 verbs are *select* (selects a subset of columns), *filter* (filter out or obtain a subset of the rows), *mutate* (mutate or create a column), *group_by* (group the rows by a specified column), *summarize* (calculate a numerical summary of a column), and *arrange* (arrange the rows according to some column)
+
