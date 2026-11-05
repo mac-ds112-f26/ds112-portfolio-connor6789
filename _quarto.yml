@@ -64,10 +64,10 @@ book:
       chapters:
       - pvj/pvj-01.qmd
 
-     - part: "TidyTuesday"
-       chapters:
-       - tt/2025-07-08.qmd
-       - tt/2025-07-15.qmd
+   #  - part: "TidyTuesday"
+    #   chapters:
+     #  - tt/2025-07-08.qmd
+      # - tt/2025-07-15.qmd
 
 
      - part: "Pre-Class Learnings"
