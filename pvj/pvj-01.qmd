@@ -1,5 +1,26 @@
 ---
-title: "Personal Visualization Journey"
+title: "pvj-01"
+format: html
 ---
 
-Add content here
+```{r}
+library(tidyverse)
+
+workout_log <- data.frame(
+  week = rep(1:4, each = 7),
+  day = rep(c("Tuesday", "Tuesday",
+              "Thursday", "Thursday", "Thursday",
+              "Saturday", "Saturday"), times = 4),
+  exercise = rep(c("Front Squats", "Flat Bench",
+                   "Pull-ups", "RDLs", "Deadlift",
+                   "Incline Bench", "Split Squats"), times = 4),
+  category = rep(c("Lower Body", "Upper Body",
+                   "Upper Body", "Lower Body", "Lower Body",
+                   "Upper Body", "Lower Body"), times = 4)
+)  # Rubin suggested seeing if I could put in my weights for the lift to see if I am progressing or not
+
+ggplot(workout_log, aes(x = day, fill = category)) +
+geom_bar() +
+facet_wrap(~week) +
+labs(title = "Weekly Baseball Lifting Routine", x = "Day of the Week", y = "Number of Exercises", fill = "Exercise Category")  # Owen was interested to see if using facet a different way could show a different kind of variation
+```
